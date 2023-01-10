@@ -151,7 +151,7 @@ main{
     
 }
 section{
-    border-top: 1px dashed palegoldenrod;
+
     width: 95%;
     min-height: 50vh;
     background-color: rgba(255, 255, 255, 0.4);
@@ -192,6 +192,7 @@ aside p{
     background-color: rgba(255, 255, 255, 0.9);
 }
 h2{
+    border-top: 2px dashed palegoldenrod;
     color: maroon;
     background-color: #322;
     text-decoration: underline;
