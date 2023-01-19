@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -145,8 +146,9 @@ main{
     flex-direction: column;    
     background: peru;
     position: static;
-    margin-left: 25%;
-    width: 75%;
+    margin-left: 22%;
+    width: 72%;
+    margin-right: 5%;
 
     
 }
@@ -163,7 +165,7 @@ section{
 /**=================*/
 /**=======ASIDE=====*/
 /**=================*/
-aside{
+.index {
     background-color: palegoldenrod;
     height: 100vh;
     position: sticky;
@@ -188,6 +190,29 @@ aside p{
 /**=================*/
 /**=======ASIDE=====*/
 /**=================*/
+/**=================*/
+/**=======UP========*/
+/**=================*/
+.up{
+    position: sticky;
+    bottom: 0;
+    width: 4%;
+    height: 8vh;
+    margin-right: 1%;
+    float: right;
+    margin-left: 96%;
+
+}
+.up img{
+    width: auto;
+    height: 8vh;
+
+}
+
+/**=================*/
+/**=======UP========*/
+/**=================*/
+
 .main-content p{
     background-color: rgba(255, 255, 255, 0.9);
 }
@@ -211,6 +236,11 @@ iframe{
 /**=================*/
 /**======FOOTER=====*/
 /**=================*/
+.imatge-final{
+    margin: auto;
+    height: 100vh;
+    width: auto;
+}
 
 /**=================*/
 /**======FOOTER=====*/
