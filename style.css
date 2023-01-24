@@ -139,6 +139,7 @@ main{
     background-color: #fff;
     padding-top: 10px;
     justify-content: space-around;
+    min-height: 120vh;
    
 }
 .main-content{
@@ -149,7 +150,7 @@ main{
     margin-left: 22%;
     width: 72%;
     margin-right: 5%;
-    margin-bottom: 10px;
+
     
 }
 section{
@@ -182,10 +183,16 @@ aside h3{
     text-decoration-line: underline;
     text-align: center;
     color: maroon;
+    line-height: 100px;
 }
 aside p{
+    
     margin-bottom: 5px;
     background-color: rgba(255, 255, 255, 0.2);
+}
+aside li{
+    text-align: center;
+    line-height: 50px;
 }
 /**=================*/
 /**=======ASIDE=====*/
@@ -267,8 +274,9 @@ iframe{
     background: #bb0000;
     color: white;
   }
-  footer nav{
-    padding-top: 10%;
+  footer{
+    border-top: 10px solid gold;
+    
   }
 /**=================*/
 /**======FOOTER=====*/
