@@ -232,16 +232,27 @@ iframe{
 /**=================*/
 /**=======MAIN======*/
 /**=================*/
-
+.spai{
+    background-color: palegoldenrod;
+    width: 100%;
+    height: 15vh;
+}
 /**=================*/
 /**======FOOTER=====*/
 /**=================*/
-.imatge-final{
-    margin: auto;
-    height: 100vh;
-    width: auto;
-}
 
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
 /**=================*/
 /**======FOOTER=====*/
 /**=================*/
