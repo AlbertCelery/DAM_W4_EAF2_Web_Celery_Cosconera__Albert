@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    cursor: auto;
 }
 a {
 	text-decoration: none;
@@ -70,6 +71,7 @@ nav{
 	text-decoration: none;
     border-bottom: 4px solid rgba(0, 0, 0, 0.2);
     border-top: 3px solid rgba(250, 250, 250, 0.2) ;
+    cursor: pointer;
 }
 #home-page{
 	padding: 20px 10px 10px ;
@@ -83,6 +85,7 @@ nav{
     border: 0;
     background-color: darkslategray;
     transition: ease-out .2s;
+    
 }
 .home{
     margin-top: -2vh;
@@ -134,7 +137,13 @@ nav{
 /**=================*/
 /**=======MAIN======*/
 /**=================*/
-
+.left-side{
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+    position: left;
+    float: left;
+}
 main{
     background-color: #fff;
     padding-top: 10px;
@@ -225,8 +234,8 @@ aside li{
 }
 h2{
     border-top: 2px dashed palegoldenrod;
-    color: maroon;
-    background-color: #322;
+    color: red;
+    background-color: rgb(51, 34, 34, 0.5);
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-align: center;
@@ -275,9 +284,42 @@ iframe{
     color: white;
   }
   footer{
+    clear:both;
     border-top: 10px solid gold;
     
   }
 /**=================*/
 /**======FOOTER=====*/
 /**=================*/
+
+/**=================*/
+/**======TSTYLE=====*/
+/**=================*/
+
+table, td,tr{
+     height: 20px;
+     border-color: goldenrod;
+     border-width: 1px;
+     border-style: solid;
+     border-collapse: collapse;
+     max-width:60vw;
+     
+ }
+ tr:nth-child(even){
+     background-color: rgb(238, 232, 170, 0.5);
+ }
+ th{
+     font-weight: bold;
+ }
+ .bordes{
+     border-width: 3px;
+     margin-top: 4px;
+ }
+ .caratula{
+     height: 20vh;
+ }   
+/**=================*/
+/**======TSTYLE=====*/
+/**=================*/
+
+
