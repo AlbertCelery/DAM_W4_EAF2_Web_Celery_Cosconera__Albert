@@ -203,6 +203,7 @@ aside p{
     
     margin-bottom: 5px;
     background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
 }
 aside li{
     text-align: center;
@@ -375,4 +376,48 @@ table, td,tr{
 /**================*/
 /**======ERROR=====*/
 /**================*/
+
+/**=================*/
+/**====LOGIN MENU===*/
+/**=================*/
+.login-square{
+    position: relative;
+    float: left;
+    min-height: 20vh;
+    width: 40%;
+    overflow: hidden;
+    margin: 10% 30%;
+    border: 3px solid forestgreen;
+
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20%;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    
+  }
+  .tancar{
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20%;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+  }
+/**=================*/
+/**====LOGIN MENU===*/
+/**=================*/
 
