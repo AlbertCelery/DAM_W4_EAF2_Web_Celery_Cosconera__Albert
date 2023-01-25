@@ -318,6 +318,10 @@ table, td,tr{
  .caratula{
      height: 20vh;
  }   
+ .cartellera{
+    margin: 20px auto;
+    text-align: center;
+ }
 /**=================*/
 /**======TSTYLE=====*/
 /**=================*/
