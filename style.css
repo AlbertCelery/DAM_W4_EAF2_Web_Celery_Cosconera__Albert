@@ -172,6 +172,7 @@ section{
     margin-bottom: 4px;
 
 }
+
 /**=================*/
 /**=======ASIDE=====*/
 /**=================*/
@@ -229,8 +230,8 @@ aside li{
 /**=======UP========*/
 /**=================*/
 
-.main-content p{
-    background-color: rgba(255, 255, 255, 0.9);
+.main-content p, h4{
+    background-color: rgb(255, 218, 185, 0.5);
 }
 h2{
     border-top: 2px dashed palegoldenrod;
